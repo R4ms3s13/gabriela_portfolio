@@ -1,62 +1,55 @@
 ---
-import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="Sobre mí | Gabriela Martinez" description="Conoce la trayectoria de Gabriela Martinez">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				title="Sobre mí"
+				tagline="Ingeniera en sistemas nacida en Maracaibo y ubicada en San Francisco, Estado Zulia. Me especializo en análisis de datos y optimización de procesos mediante reportes dinámicos."
 			>
 				<img
-					width="1553"
-					height="873"
+					class="about-portrait"
 					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					alt="Gabriela Martinez colaborando con una colega en el estudio"
 				/>
 			</Hero>
 
 			<section>
-				<h2 class="section-title">Background</h2>
+				<h2 class="section-title">Trayectoria</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed
-						do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Nací en Maracaibo, vivo actualmente en San Francisco y estudié Ingeniería de Sistemas con interés en el análisis y gestión de datos.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						Actualmente me preparo como Analista de Datos, fortaleciendo habilidades en Excel avanzado para la organización, depuración y visualización de información mediante tablas dinámicas, gráficos dinámicos y dashboards.
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Mi perfil está orientado a transformar datos en conocimiento estratégico que apoye la toma de decisiones y la optimización de procesos empresariales.
 					</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Formación</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+				   <p>Bachiller en Ciencias, U.E.Gral. Juan Antonio Paredes - Maracaibo (2012 - 2017).</p>
+					<p>Ingeniería de Sistemas, UNEFA - Maracaibo (2017 - 2022)</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Habilidades</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<ul>
+						<li>Manejo de Excel</li>
+						<li>Adaptabilidad</li>
+						<li>Trabajo en equipo</li>
+						<li>Análisis de datos</li>
+					</ul>
 				</div>
 			</section>
 		</main>
-
-		<ContactCTA />
 	</div>
 </BaseLayout>
 
@@ -67,8 +60,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 		gap: 3.5rem;
 	}
 
-	img {
-		margin-top: 1.5rem;
+	.about-portrait {
+		display: block;
+		width: min(35%, 72rem);
+		height: auto;
+		margin: 1.5rem auto 0;
 		border-radius: 1.5rem;
 		box-shadow: var(--shadow-md);
 	}

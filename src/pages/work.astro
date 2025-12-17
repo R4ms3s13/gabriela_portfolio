@@ -1,6 +1,5 @@
 ---
 import { getCollection } from 'astro:content';
-import ContactCTA from '../components/ContactCTA.astro';
 import Grid from '../components/Grid.astro';
 import Hero from '../components/Hero.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
@@ -12,14 +11,14 @@ const projects = (await getCollection('work')).sort(
 ---
 
 <BaseLayout
-	title="My Work | Jeanine White"
-	description="Learn about Jeanine White's most recent projects"
+	title="Proyectos | Gabriela Martinez"
+	description="Dashboards y reportes dinámicos creados en Excel por Gabriela Martinez"
 >
 	<div class="stack gap-20">
 		<main class="wrapper stack gap-8">
 			<Hero
-				title="My Work"
-				tagline="See my most recent projects below to get an idea of my past experience."
+				title="Reportes seleccionados"
+				tagline="Tablas y gráficos dinámicos que convierten datos operativos en decisiones accionables."
 				align="start"
 			/>
 			<Grid variant="offset">
@@ -32,6 +31,5 @@ const projects = (await getCollection('work')).sort(
 				}
 			</Grid>
 		</main>
-		<ContactCTA />
 	</div>
 </BaseLayout>
