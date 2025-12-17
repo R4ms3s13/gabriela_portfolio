@@ -1,7 +1,7 @@
 ---
 title: Balance de Gastos Operativos
 publishDate: 2019-12-01 00:00:00
-img: /assets/proyecto2.png
+img: ./bloom-box.png
 img_alt: Papel rosa brillante que envuelve flores frente a un fondo azul intenso
 description: |
   Resumen mensual de los gastos operativos de la empresa, incluyendo sueldos, alquiler, servicios, viajes y publicidad, con acumulado anual hasta septiembre.

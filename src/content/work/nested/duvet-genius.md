@@ -1,7 +1,7 @@
 ---
 title: Presupuesto de Vacaciones
 publishDate: 2020-03-04 00:00:00
-img: /assets/proyecto3.png
+img: ./duvet-genius.png
 img_alt: Perlas de algodón blanco iluminadas con luz vibrante
 description: |
    Resumen del presupuesto vacacional dividido por categoría, comparando lo planeado con lo ejecutado y mostrando el saldo disponible.
